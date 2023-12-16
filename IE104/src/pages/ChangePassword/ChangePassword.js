@@ -25,9 +25,10 @@ const Setting = () => {
   };
 
   return (
-    <div className="dashboard-profile-settings">
+    <div className="frame">
       <LeftBar />
-      <div className="dashboard-profile-settings-child" />
+    <div className="dashboard-profile-settings-3">
+      
       <div className="change-settings-wrapper">
         <h1 className="change-settings-title">Change Password</h1>
         <form onSubmit={handleSubmit}>
@@ -72,6 +73,7 @@ const Setting = () => {
           </div>
         </form>
       </div>
+    </div>
     </div>
   );
 };

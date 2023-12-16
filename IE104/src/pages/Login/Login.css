@@ -19,8 +19,8 @@
     height: 206px;
     left: 60px;
     position: absolute;
-    top: 380px;
-    width: 498px;
+    top: 330px;
+    width: 798px;
 }
 
 .auth .text-wrapper {
@@ -33,9 +33,11 @@
     line-height: normal;
     position: absolute;
     top: 0;
+    width: 1000px;
+    
 }
 
-.auth .frame {
+.auth .frame-10 {
     align-items: flex-start;
     border: 4px solid;
     border-color: #ffffff;
@@ -45,9 +47,10 @@
     padding: 14px 24px;
     position: absolute;
     top: 128px;
+    margin-top: 20px;
 }
 
-.auth .code-lord {
+.auth .code-learn {
     color: transparent;
     font-family: "KoHo-SemiBold", Helvetica;
     font-size: 32px;
@@ -59,7 +62,7 @@
     margin-top: 10px;
 }
 
-.auth .span {
+.auth .span-10 {
     color: #ffffff;
     font-family: "KoHo-SemiBoldItalic", Helvetica;
     font-style: italic;
@@ -164,7 +167,7 @@
     width: fit-content;
 }
 
-.auth .text-wrapper-4 {
+.auth .text-wrapper-welcome {
     color: #ffffff;
     font-family: "Poppins-Medium", Helvetica;
     font-size: 16px;
@@ -233,7 +236,7 @@
     color: #ffffff;
 }
 
-.auth .text-wrapper-6 {
+.auth .text-wrapper-quenmatkhau {
     color: #ffffff;
     font-family: "Poppins-Medium", Helvetica;
     font-size: 16px;
@@ -253,7 +256,7 @@
     position: relative;
 }
 
-.auth .div-wrapper {
+.auth .div-wrapper-100 {
     align-items: center !important;
     background: linear-gradient(180deg, rgb(33, 124, 88) 28.65%, rgb(33, 181, 115) 54.17%);
     border-radius: 12px;
@@ -261,6 +264,8 @@
     position: relative;
     width: 400px;
     height: 40px;
+    font-weight: bold;
+    color: white;
 }
 
 .auth .text-wrapper-5 {
@@ -304,13 +309,13 @@
     gap: 20px;
 }
 
-.auth .line {
+.auth .line-10 {
     height: 2px;
     position: relative;
     width: 170px;
 }
 
-.auth .text-wrapper-8 {
+.auth .text-wrapper-hoac {
     color: #4c4c4c;
     font-family: "Poppins-Medium", Helvetica;
     font-size: 16px;
@@ -322,7 +327,7 @@
     position: relative;
 }
 
-.auth .frame-5 {
+.auth .frame-115 {
     text-align: center;
 }
 
@@ -335,11 +340,11 @@
     top: 250px;
 }
 
-.auth .text-wrapper-9 {
+.auth .text-wrapper-dont-have {
     font-weight: 500;
 }
 
-.auth .text-wrapper-10 {
+.auth .text-wrapper-signup {
     font-family: "Poppins-Bold", Helvetica;
     font-weight: 700;
     text-decoration: none;

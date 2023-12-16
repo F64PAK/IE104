@@ -81,18 +81,20 @@ body {
   .resources2 {
     position: absolute;
     width: 15.99%;
-    top: calc(50% - 510.5px);
-    left: 20.31%;
+    top: 100px;
+    font-family: 'Koho', sans-serif;
     line-height: 28px;
     font-weight: 500;
     display: inline-block;
   }
   .resources2 {
-    width: 37.71%;
-    top: calc(50% - 421.5px);
-    font-size: var(--font-size-11xl);
+    width: 800px;
+    top: 160px;
+    font-family: 'Koho', sans-serif;
+    font-size: 28px;
   }
   .course-details {
+    font-family: 'Koho', sans-serif;
     font-size: 28px;
     top: 50px;
   }
@@ -106,8 +108,8 @@ body {
   }
   .course-details-software-container {
     position: absolute;
-    top: 633px;
-    left: 377px;
+    top: 250px;
+  
     font-size: var(--font-inherit);
     line-height: 28px;
     font-weight: 500;
@@ -248,7 +250,7 @@ body {
     position: relative;
     line-height: 28px;
   }
-   .button-base {
+   .button-base-overview {
     all: unset;
     align-items: center;
     background-color: #21b573;
@@ -259,12 +261,12 @@ body {
     gap: 8px;
     height: 60px;
     justify-content: center;
-    left: 1500px;
+    left: 1200px;
     overflow: hidden;
     padding: 16px 28px;
     position: absolute;
-    top: 180px;
-    width: 153px;
+    top: -100px;
+    width: 200px;
   } 
 
   .text-2{
@@ -276,8 +278,8 @@ body {
   .overview-of-course {
     position: relative;
     background-color: #0e1620;
-    width: 100%;
-    height: 1600px;
+    width: 1920px;
+    height: 1365px;
     overflow: hidden;
     text-align: left;
     font-size: var(--font-size-31xl);
@@ -285,20 +287,28 @@ body {
     font-family: var(--font-poppins);
     margin-top: 0px;
   }
-
+  .content-overview{
+    position: relative;
+    float: right;
+    width: 1600px;
+    height: 1365px;
+  }
   .course-details{
     font-size: 50px;
     line-height: 1.3; /* Điều chỉnh giá trị này để thay đổi khoảng cách giữa các dòng */
     margin-bottom: 3px;
+    margin-top: 3px;
   }
 
   .course-details-1{
-    font-size: 30px;
+    font-family: 'Koho', sans-serif;
+    font-size: 28px;
     line-height: 1.3; /* Điều chỉnh giá trị này để thay đổi khoảng cách giữa các dòng */
     margin-bottom: 15px;
   }
 
   .what-is-software{
+    font-family: 'Koho', sans-serif;
     line-height: 1.3; /* Điều chỉnh giá trị này để thay đổi khoảng cách giữa các dòng */
     margin-bottom: 3px;
   }

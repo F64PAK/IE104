@@ -7,7 +7,7 @@
 
 .codelord {
     font-size: 29px;
-    margin-left: 60px;
+    margin-left: 50px;
     margin-right: 700px;
     font-weight: bold;
     font-family: 'Koho', sans-serif;
@@ -32,7 +32,8 @@
   }
 
 .button-distance{
-    margin-right: 60px;
+    margin-right: 100px;
+    border: 10px;
 }
 .button-text {
     font-size: 18px;
@@ -47,7 +48,6 @@
     height: 60px;
     border-radius: 50px;
     padding-top: 12px;
-    margin-left: 10px;
 }
 
 .background-color {
@@ -181,10 +181,8 @@
 .box .overlap-group {
     height: 170px;
     position: relative;
-    width: 290px;
+    width: 500px;
 }
-
-
 
 .box .text-wrapper {
     color: #ffffff;
@@ -193,10 +191,10 @@
     font-weight: 300;
     left: 111px;
     letter-spacing: 0;
-    line-height: 110px;
+    line-height: 150px;
     position: absolute;
     top: 4px;
-    width: 180px;
+    width: 200px;
 }
 
 .box .div {
@@ -211,6 +209,7 @@
     top: 95px;
     white-space: nowrap;
     width: 111px;
+    
 }
 
 .box .overlap {
@@ -245,11 +244,11 @@
     font-weight: 300;
     left: 32px;
     letter-spacing: 0;
-    line-height: 40px;
+    line-height: 50px;
     position: absolute;
     top: 0;
     white-space: nowrap;
-    width: 99px;
+    width: 500px;
 }
 
 .box .text-wrapper-3 {
@@ -459,7 +458,6 @@
     font-size: 50px;
     font-weight: bold;
     font-family: "Koho", sans-serif;
-    width: 300px;
 }
 
 .instruction .click{
@@ -523,6 +521,10 @@
     top: 56px;
     white-space: nowrap;
     width: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
   
   .cybersec .group {
@@ -530,7 +532,7 @@
     left: 320px;
     position: absolute;
     top: 45px;
-    width: 143px;
+    width: 1103px;
   }
   
   .cybersec .overlap-group {
@@ -539,7 +541,7 @@
     border-radius: 17.5px;
     height: 34px;
     position: relative;
-    width: 141px;
+    width: 160px;
   }
   
   .cybersec .text-wrapper-2 {
@@ -699,6 +701,10 @@
     top: 56px;
     white-space: nowrap;
     width: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
   
   .datascience .group {
@@ -715,7 +721,7 @@
     border-radius: 17.5px;
     height: 34px;
     position: relative;
-    width: 141px;
+    width: 165px;
   }
   
   .datascience .text-wrapper-2 {
@@ -729,7 +735,7 @@
     position: absolute;
     top: 5px;
     white-space: nowrap;
-    width: 124px;
+    width: 150px;
     text-align: center;
     padding: 2px;
   }
@@ -875,6 +881,10 @@
     top: 56px;
     white-space: nowrap;
     width: 90px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
   }
   
   .aiml .group {
@@ -891,7 +901,7 @@
     border-radius: 17.5px;
     height: 34px;
     position: relative;
-    width: 141px;
+    width: 170px;
   }
   
   .aiml .text-wrapper-2 {
@@ -1064,6 +1074,7 @@ margin-left: 38%;
     height: 280px;
     position: relative;
     width: 765px;
+    cursor: pointer;
   }
   
   .boxsignup .overlap {

@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import "./Categories.css";
-
 import LeftBar from "../../Components/LeftBar/Leftbar"; 
 import Header from "../../Components/Header/Header"; 
 import Card from "react-bootstrap/Card";
@@ -14,13 +13,11 @@ import ai from "./images/ai-ml-icon.svg";
 import data from "./images/data-science-icon.svg";
 import networking from "./images/networking-icon.svg";
 import meta from "./images/meta.svg"
-// import iconplaypurple from "./images/icon-play-purple.svg"
 import iconplayyellow from "./images/icon-play-yellow.svg"
 
 const Categories = () => {
   const [currentBannerName, setCurrentBannerName] = useState(false);
   const [currentLesson, setCurrentLesson] = useState(false);
-  const [currentSkill, setCurrentSkill] = useState(false);
   const [currentCourseName, setCourseName] = useState(false);
   const [currentCourseSkills, setCourseSkills] = useState(false);
   const [isCardVisible, setCardVisibility] = useState(false)
@@ -32,37 +29,31 @@ const Categories = () => {
     switch (bannerName) {
       case "Front-end":
         setCurrentLesson("xxx Bài học");
-        setCurrentSkill("Front-end");
         setCourseName("Test FE");
         setCourseSkills("Front end, Web Development");
         break;
       case "Back-end":
         setCurrentLesson("xxx Bài học");
-        setCurrentSkill("Back-end");
         setCourseName("Test BE");
         setCourseSkills("Back end, Web Development");
         break;
       case "Data Science":
         setCurrentLesson("xxx Bài học");
-        setCurrentSkill("Data Science");
         setCourseName("Test Data Science");
         setCourseSkills("Data Science, Web Development");
         break;
       case "Cyber Security":
         setCurrentLesson("xxx Bài học");
-        setCurrentSkill("Cyber Security");
         setCourseName("Test Cyber Security");
         setCourseSkills("Cyber Security, Web Development");
         break;
       case "AI & ML":
         setCurrentLesson("xxx Bài học");
-        setCurrentSkill("AI & ML");
         setCourseName("Test AI & ML");
         setCourseSkills("AI & ML, Web Development");
         break;
       case "Networking":
         setCurrentLesson("xxx Bài học");
-        setCurrentSkill("Networking");
         setCourseName("Test Networking");
         setCourseSkills("Networking, Web Development");
         break;
@@ -150,14 +141,6 @@ const Categories = () => {
                     <Card.Img variant="left" src={iconplayyellow} height={'27px'} />
                     <span> {currentLesson} </span>
                   </Col>
-                  <Col md={2}></Col>
-                  <Col md={4}>
-                  {/* <Card className="card-type">
-                    <Card.Body>
-                      <Card.Text>{currentSkill}</Card.Text>
-                    </Card.Body>
-                  </Card> */}
-                  </Col>
                 </Row>
               </Card.Header>
 
@@ -172,7 +155,7 @@ const Categories = () => {
                 <Row className="careers-card-footer">
                   <hr />
                   <Col md={5}>
-                    <Button variant="primary" className="button-join">Tham gia</Button>
+                    <Button variant="primary" className="button-join" href="/overview">Tham gia</Button>
                   </Col>
                   <Col md={4}></Col>
                   <Col md={3} className="meta-icon">

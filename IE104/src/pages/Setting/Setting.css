@@ -62,11 +62,8 @@ body {
   height: 1350px;
   top:-10px;
   font-family: 'Poppins', sans-serif; 
-  
   position: relative;
-  float: left;
-  
-  
+  float: left; 
 }
 .dashboard-profile-settings-child {
   border-radius: 0 var(--br-11xl) var(--br-11xl) 0;

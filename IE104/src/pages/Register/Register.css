@@ -6,7 +6,7 @@
     width: 700px;
 }
 
-.signuptext-wrapper {
+.signuptext-wrapper-3 {
     color: #ffffff;
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 96px;
@@ -16,6 +16,7 @@
     line-height: normal;
     position: absolute;
     top: 0;
+    width: 600px;
 }
 
 .auth .name  {
@@ -127,6 +128,8 @@
     position: relative;
     width: 400px;
     height: 40px;
+    font-weight: bold;
+    color: white;
 }
 
 .auth .resdon-t-have-an {
@@ -146,4 +149,12 @@
     text-align: center;
     left: 8%;
     margin-top: 41%;
+}
+.auth .don-t-have-an-2 {
+    color: #ffffff;
+    font-family: "Poppins-Medium", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: 215px;
 }

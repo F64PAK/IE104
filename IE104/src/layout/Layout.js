@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Components/hihi";
+import Navbar from "../Components/Navbar";
 
 const Layout = (props) => (
         <div>

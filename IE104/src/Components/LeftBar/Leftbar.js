@@ -14,7 +14,7 @@ import signout from "./images/Logout.svg";
 function LeftBar () {
   
   return (
-    // <div className="box">
+    
       <div className="left-bar">
         <div className="overlap">
           <div className="rectangle" />
@@ -60,7 +60,7 @@ function LeftBar () {
             </div>
           </Link>
 
-          <Link to="/coursecart">
+          
           <div className="course-cart">
             <div className="text-wrapper-lb">Thanh toán</div>
             <img
@@ -69,7 +69,7 @@ function LeftBar () {
               src={cart}
             />
           </div>
-          </Link>
+          
 
           <Link to="/setting">
             <div className="settings">
@@ -95,7 +95,7 @@ function LeftBar () {
           </Link> 
         </div>  
       </div>
-    // </div>
+    
   );
 };
 

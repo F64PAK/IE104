@@ -1,45 +1,17 @@
-import React, {useState} from "react";
-import {Navigate} from "react-router-dom";
-import {connect} from "react-redux";
-
-import { reset_password } from "../../actions/auth";
- 
+import React from "react";
 import "./Resetpassword.css"
 
 
-const Resetpassword = ({ reset_password }) => {
-    const [requestSent, setRequestSent] = useState(false);
-    const [formData, setFormData] = useState({
-        email: ''
-    });
-    
-    const {email} = formData;
-
-    const onChange = e => setFormData({ ...formData, [e.target.name]: e.target.value });
-
-    const onSubmit = e => {
-        e.preventDefault();
-
-        reset_password(email);
-        setRequestSent(true);
-    };
-
-    //If the user authenticated
-    //Redirect to the home page
-
-    if (requestSent) {
-        return <Navigate to="/" />
-    }
-
+const Resetpassword = () => {
     return (
         <div className="auth">
             <div className="div">
-                <div className="resetoverlap">
-                    <div className="text-wrapper">Còn Cứu Được</div>
-                    <div className="frame">
-                        <p className="code-lord">
-                            <span className="span">Code</span>
-                            <span className="text-wrapper-2">Lord</span>
+            <div className="overlap">
+                    <div className="text-wrapper">Quên mật khẩu</div>
+                    <div className="frame-10">
+                        <p className="code-learn">
+                            <span className="span-10">Code</span>
+                            <span className="text-wrapper-2">Learn</span>
                         </p>
                     </div>
                 </div>
@@ -51,34 +23,29 @@ const Resetpassword = ({ reset_password }) => {
                                 <div className="frame-3">
                                     <div className="upper-section">
                                         <div className="auth-text">
-                                            <div className="text-wrapper-3">Forgot your password?</div>
-                                            <div className="text-wrapper-4">Please enter your email</div>
+                                            <div className="text-wrapper-3">Quên mật khẩu?</div>
+                                            <div className="text-wrapper-welcome">Hãy nhập email của bạn</div>
                                         </div>
                                     <div className="credentials">
-                                        <form onSubmit={e=>onSubmit(e)}>
+                                        <form>
                                             <div className="form-group email">
-                                                <input type="email" className="form-control" placeholder="Email" name="email" value={email} onChange={e=>onChange(e)} required/>
+                                                <input type="email" className="form-control" placeholder="Email" name="email"  required/>
                                             </div>
                                             <button class="btn auth-bt-fp resetdiv-wrapper" type="submit">
-                                                <p className="text-wrapper-5">Reset password</p>
+                                                <p className="text-wrapper-dangnhap">Lấy lại mật khẩu</p>
                                             </button>
                                         </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    <div className="frame-5">
+                    <div className="frame-115">
                         <p className="resetdon-t-have-an">
-                            <span className="text-wrapper-9">Don't have an account?</span>
+                            <span className="text-wrapper-dont-have">Bạn không có tài khoản </span>
                             <span> 
-                                <a className="text-wrapper-10" href="/signup"> Sign up</a>
+                                <a className="text-wrapper-signup" href="/signup"> Đăng ký ngay</a>
                             </span>
                         </p>
-                    </div>
-                    <div className="resetcustomer-care">
-                        <div className="text-wrapper-11">Terms & Conditions</div>
-                        <div className="text-wrapper-11">Support</div>
-                        <div className="text-wrapper-11">Customer Care</div>
                     </div>
                 </div>
             </div>
@@ -87,4 +54,4 @@ const Resetpassword = ({ reset_password }) => {
     );
 };
 
-export default connect(null,{ reset_password }) (Resetpassword);
+export default Resetpassword;
